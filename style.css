@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "futura" ;
+}
+
+
+header{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    background-color:antiquewhite;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    padding-bottom: 0.5em;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 0,1em;
+    background-position-y: 100%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    transition: background-size ease-in-out 0.3s;
+    
+}
+
+.menu a:hover {
+    background-size: 100% 0.15em;
+}
+
+#Accueil {
+    margin-top: 30px;
+    height: calc(80vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#Accueil .left {
+    width: 40%;
+}
+#Accueil .left h1 {
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 600%;
+    margin-bottom: 10px;
+}
+
+#Accueil .left p {
+    margin-left: 20%;
+    margin-bottom: 30px;
+    color: #454545;
+    font-size: 220%;
+}
+
+#Accueil .right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Accueil .right img {
+    width: 17%;
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+}
+
+#Développement {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    height: calc(110vh - 0px);
+    padding: 0 2%;
+    display: flex;
+    align-items :center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 160%;
+}
+
+
+
+#Stratégies {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: calc (30vh - 50px);
+    padding: 0 3%;  
+    justify-content: space-between;
+    position: relative;
+    top : 0%;
+    font-size: 160%;
+}
+
+#Stratégies .stra{
+    text-align:center;
+}
+
+#Stratégies .stra img{
+    width: 60%;
+    position: relative;
+    left: 4%;
+}
+
+#Stratégies .nos{
+    text-align:center;
+}
+
+#Stratégies .nos .tb{
+    position: absolute;
+    left: 15%;
+    top: 98%;
+    color: rgb(0, 0, 0);
+}
+
+#Conclusion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: calc(30vh - 50px);
+    padding: 0 3%;
+    justify-content: space-between;
+    position:absolute;
+    top: 425%;
+    font-size: 170%;
+}
+
+footer{
+    position:absolute ;
+    top: 470%;
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: antiquewhite ;
+}
+
+
+footer .nomp{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+footer .nomp ul li {
+    list-style-type: none;
+}
